@@ -1,0 +1,283 @@
+body{
+  background-color: #162224;
+  font-family: "Courier New"!important;
+}
+.container{
+  padding-top: 8%;
+}
+.btn{
+  font-size: 1em;
+  border-style: solid;
+  border-width: 2px;
+}
+.count-down{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+/* loader animation */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+/* Intro image */
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+/* About me */
+.var-highlight2{
+	color: green;
+}
+.string-highlight2{
+	color: purple;
+}
+.string-highlight3{
+	color: red;
+}
+/* Greetings */
+.var-highlight{
+	color: #C0AD60;
+}
+.string-highlight{
+	color: rgba(253, 149, 90, 0.8);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #typewriter{
+  		font-size: 0.6em;
+  		margin: 0;
+  		font-family: "Courier New";
+
+  		&:after{
+  			content: "|";
+  			animation: blink 500ms linear infinite alternate;
+  		}
+  }
+
+  @-webkit-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @-moz-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+
+#typewriter2{
+    font-size: 0.6em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #typewriter{
+  		font-size: 0.7em;
+  		margin: 0;
+  		font-family: "Courier New";
+
+  		&:after{
+  			content: "|";
+  			animation: blink 500ms linear infinite alternate;
+  		}
+  }
+
+  @-webkit-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @-moz-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+#typewriter2{
+    font-size: 0.7em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #typewriter{
+    font-size: 0.75em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+  }
+
+  @-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  @-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+  }
+
+
+#typewriter2{
+  font-size: 0.75em;
+  margin: 0;
+  font-family: "Courier New";
+
+  &:after{
+    content: "|";
+    animation: blink 500ms linear infinite alternate;
+  }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #typewriter{
+  		font-size: 1em;
+  		margin: 0;
+  		font-family: "Courier New";
+
+  		&:after{
+  			content: "|";
+  			animation: blink 500ms linear infinite alternate;
+  		}
+  }
+
+  @-webkit-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @-moz-keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+  @keyframes blink{
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+
+
+#typewriter2{
+    font-size: 1em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+}
